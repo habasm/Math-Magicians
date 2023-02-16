@@ -30,7 +30,7 @@
 
 # 📖 [Math-Magicians] <a name="about-project"></a>
 
-> **[Math-Magicinas]** This is a project Math magicians: components of the project named <b>Math magicians.</b>
+> **[Math-Magicinas]** This is a project <b>Math magicians: <u>events</u></b> of the project named <b>Math magicians.</b>
  <img src='img\screensho2.png'>
 ## 🛠 Built With <a name="built-with"></a>
 
