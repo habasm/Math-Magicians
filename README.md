@@ -28,10 +28,10 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Math-Magicinas] <a name="about-project"></a>
+# 📖 [Math-Magicians] <a name="about-project"></a>
 
-> **[Math-Magicinas]** This is a project setup of the project named <b>Math magicians.</b>
-
+> **[Math-Magicinas]** This is a project Math magicians: components of the project named <b>Math magicians.</b>
+ <img src='img\screensho2.png'>
 ## 🛠 Built With <a name="built-with"></a>
 
 > HTML,
