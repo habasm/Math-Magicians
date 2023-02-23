@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { v4 as uuidv4 } from 'uuid';
 import '../scss/Calculator.scss';
+import style from '../scss/Style.module.scss';
 import calculate from '../logic/calculate';
 
 const buttons = [
@@ -156,6 +157,7 @@ const Calculator = () => {
 
   return (
     <>
+      <h1 className={style.calcTitle}>Let&apos;s do some math!</h1>
       <div className="Calculator">
         <span className="Display">{result}</span>
         <section className="Keypad">

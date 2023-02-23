@@ -30,8 +30,10 @@
 
 # 📖 [Math-Magicians] <a name="about-project"></a>
 
-> **[Math-Magicinas]** This is a project <b>Math magicians: <u>events</u></b> of the project named <b>Math magicians.</b>
- <img src='img\screensho2.png'>
+> **[Math-Magicinas]** This is a project <b>Math magicians: <u>full website </u></b> of the project named <b>Math magicians.</b>
+- In this project, I am created a full website for the Math magicians app, consisting of several pages and using the components already created.
+- 3 pages: Home, Calculator, and Quote. are created
+ <img src='img\full.png'>
 ## 🛠 Built With <a name="built-with"></a>
 
 > HTML,
