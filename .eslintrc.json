@@ -4,6 +4,9 @@
     "es6": true,
     "jest": true
   },
+  "settings": {
+    "import/extensions": [".js", ".mjs", ".jsx", ".js", ".jsx", ".ts", ".tsx"]
+  },
   "parser": "@babel/eslint-parser",
   "parserOptions": {
     "ecmaFeatures": {
@@ -11,13 +14,6 @@
     },
     "ecmaVersion": 2018,
     "sourceType": "module"
-  },
-   settings: {
-    'import/resolver': {
-      node: {
-        extensions: ['.mjs', '.js', '.json', '.vue'],
-      },
-    },
   },
   "extends": ["airbnb", "plugin:react/recommended", "plugin:react-hooks/recommended"],
   "plugins": ["react"],
