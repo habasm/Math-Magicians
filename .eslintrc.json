@@ -4,18 +4,6 @@
     "es6": true,
     "jest": true
   },
-  "settings": {
-    "import/extensions": [
-      "error",
-      "always",
-      {
-        "ts": "never",
-        "tsx": "never",
-        "js": "never",
-        "jsx": "never"
-      }
-    ]
-  },
   "parser": "@babel/eslint-parser",
   "parserOptions": {
     "ecmaFeatures": {

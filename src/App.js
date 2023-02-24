@@ -4,7 +4,7 @@ import {
 } from 'react-router-dom';
 import './App.css';
 import Navbar from './components/Navbar';
-import Calculator from './components/calculator';
+import Calculator from './components/Calculator';
 import Home from './components/Home';
 import Quote from './components/Quote';
 
