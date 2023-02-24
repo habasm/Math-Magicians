@@ -5,7 +5,16 @@
     "jest": true
   },
   "settings": {
-    "import/extensions": [".js", ".mjs", ".jsx", ".js", ".jsx", ".ts", ".tsx"]
+    "import/extensions": [
+      "error",
+      "always",
+      {
+        "ts": "never",
+        "tsx": "never",
+        "js": "never",
+        "jsx": "never"
+      }
+    ]
   },
   "parser": "@babel/eslint-parser",
   "parserOptions": {
