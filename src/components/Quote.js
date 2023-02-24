@@ -1,18 +1,20 @@
 import React from 'react';
-import style from '../scss/Style.module.scss';
+import Header from './Header';
+import './Quote.css';
 
-function Quote() {
+const Quote = () => {
+  <Header />;
   return (
-    <>
-      <section className={style.block}>
-        <h1 className={style.quote}>
-          &quot;Mathematics is not about numbers, equations, computations, or
-          algorithms: it is about understanding.&quot;
-        </h1>
-        <span className={style.author}>- William Paul Thurston</span>
-      </section>
-    </>
+    <div className="quotePage">
+      <p>
+        Without mathematics, there’s nothing you can do. Everything around you is mathematics.
+        Everything around you is numbers.
+      </p>
+      <big>
+        <b>Shakuntala Devi, Indian writer and mental calculator</b>
+      </big>
+    </div>
   );
-}
+};
 
 export default Quote;

@@ -7,7 +7,7 @@ function isNumber(item) {
 /**
  * Given a button name and a calculator data object, return an updated
  * calculator data object.
- * The operations are included to apmplify the calculate performs
+ *
  * Calculator data object contains:
  *   total:s      the running total
  *   next:String       the next number to be operated on with the total
@@ -16,7 +16,7 @@ function isNumber(item) {
 export default function calculate(obj, buttonName) {
   if (buttonName === 'AC') {
     return {
-      total: null,
+      total: 0,
       next: null,
       operation: null,
     };
